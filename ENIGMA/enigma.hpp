@@ -5,6 +5,7 @@
 //  Created by Sébastien Guilloton on 03/10/2018.
 //  Copyright © 2018 Cyrano86. All rights reserved.
 //
+#include <iostream>
 
 #ifndef enigma_h
 #define enigma_h
@@ -12,7 +13,7 @@
 class Reflector
 {
 private :
-    int reflection[26];
+    int* reflection;
     
 public :
     Reflector();
