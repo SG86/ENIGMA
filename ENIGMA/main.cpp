@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
     std::cin >> c;
     std::cout << index_to_char(R.reflect(char_to_index(c))) << std::endl;
     
-    /*
+    /* test du reflecteur
     for(int i=0 ; i<26 ; i++)
     {
         c = i+65;
