@@ -12,12 +12,19 @@ char index_to_char(int i);
 int char_to_index(char c);
 
 int main(int argc, const char * argv[]) {
-    char c;
+    //char c;
+    
+    Machine machine = Machine();
+    
+    machine.cipher();
+    
+    /*
     Reflector R = Reflector();
     
     std::cout << "Entrez un caractère : ";
     std::cin >> c;
     std::cout << index_to_char(R.reflect(char_to_index(c))) << std::endl;
+     */
     
     /* test du reflecteur
     for(int i=0 ; i<26 ; i++)
@@ -37,18 +44,4 @@ int main(int argc, const char * argv[]) {
      */
     
     return 0;
-}
-
-char index_to_char(int i)
-{
-    char c;
-    c= i+65;
-    return c;
-}
-
-int char_to_index(char c)
-{
-    int i;
-    i=(int) c - 65;
-    return i;
 }
