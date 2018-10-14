@@ -39,6 +39,8 @@ Reflector::~Reflector(){
     //free(this->reflection);
 }
 
+Rotor::Rotor() {}
+Rotor::~Rotor() {}
 
 Machine::Machine(){
     this->plaintext = (char*) malloc(100*sizeof(char));

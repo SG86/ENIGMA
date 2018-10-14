@@ -23,6 +23,17 @@ public :
     ~Reflector();
 };
 
+class Rotor {
+private :
+	int* outward;
+	int* inward;
+	int counter;
+
+public :
+	Rotor();
+	~Rotor();
+};
+
 class Machine{
     private :
         char* plaintext;
